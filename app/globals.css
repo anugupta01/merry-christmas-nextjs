@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.text {
+  stroke-width: 1px;
+  stroke: rgb(255, 205, 7);
+  fill-opacity: 0;
+  stroke-dashoffset: 1000;
+  stroke-dasharray: 1000;
+  animation: writeMerry 2s linear 1 forwards;
+}
+
+@keyframes writeMerry {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
